@@ -1,5 +1,5 @@
 # CSWin-Transformer
-CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped
+This repor is the official repository of ["CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows"](https://arxiv.org/pdf/2107.00652.pdf). The code and models coming soon.
 
 ## License
 This project is licensed under the license found in the LICENSE file in the root directory of this source tree.
