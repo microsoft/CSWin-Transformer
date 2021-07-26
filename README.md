@@ -17,12 +17,12 @@ CSWin Transformer achieves strong performance on ImageNet classification (87.5 o
 
 | model | pretrain | resolution | acc@1 | #params | FLOPs | 22K model | 1K model |
 |:---:  | :---:    |  :---:     | :---: |   :---: | :---: |  :---:    |    :---: |
-| CSWin-T | ImageNet-1K  | 224x224 | 82.8 | 23M  | 4.3G  |  -  | [model]() | 
-| CSWin-S | ImageNet-1k  | 224x224 | 83.6 | 35M  | 6.9G  |  -  | [model]() |
-| CSWin-B | ImageNet-1k  | 224x224 | 84.2 | 78M  | 15.0G |  -  | [model]() |
-| CSWin-B | ImageNet-1k  | 384x384 | 85.5 | 78M  | 47.0G |  -  | [model]() |
-| CSWin-L | ImageNet-22k | 224x224 | 86.5 | 173M | 31.5G | [model]()  | [model]() |
-| CSWin-L | ImageNet-22k | 384x384 | 87.5 | 173M | 96.8G |  -  | [model]() |
+| CSWin-T | ImageNet-1K  | 224x224 | 82.8 | 23M  | 4.3G  |  -  | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.1.0/cswin_tiny_224.pth) | 
+| CSWin-S | ImageNet-1k  | 224x224 | 83.6 | 35M  | 6.9G  |  -  | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.1.0/cswin_small_224.pth) |
+| CSWin-B | ImageNet-1k  | 224x224 | 84.2 | 78M  | 15.0G |  -  | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.1.0/cswin_base_224.pth) |
+| CSWin-B | ImageNet-1k  | 384x384 | 85.5 | 78M  | 47.0G |  -  | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.1.0/cswin_base_384.pth) |
+| CSWin-L | ImageNet-22k | 224x224 | 86.5 | 173M | 31.5G | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.1.0/cswin_large_22k_224.pth)  | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.1.0/cswin_large_224.pth) |
+| CSWin-L | ImageNet-22k | 384x384 | 87.5 | 173M | 96.8G |  -  | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.1.0/cswin_large_384.pth) |
 
 
 ## Main Results on Downstream Tasks
