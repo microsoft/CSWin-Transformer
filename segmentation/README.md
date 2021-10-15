@@ -5,9 +5,9 @@
 
 | Backbone | Method | pretrain | Crop Size | Lr Schd | mIoU | mIoU (ms+flip) | #params | FLOPs | config | model | log |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  :---: | :---: | :---: |
-| CSWin-T | UPerNet | ImageNet-1K | 512x512 | 160K | 49.3 | 50.7 | 60M | 959G | [`config`](configs/cswin/upernet_cswin_tiny.py) | [model]() | [log]() |
-| CSWin-S | UperNet | ImageNet-1K | 512x512 | 160K | 50.4 | 51.5 | 65M | 1027G |  [`config`](configs/cswin/upernet_cswin_small.py) |[model]() | [log]() |
-| CSWin-B | UperNet | ImageNet-1K | 512x512 | 160K | 51.1 | 52.2 | 109M | 1222G | [`config`](configs/cswin/upernet_cswin_base.py) |[model]() | [log]() |
+| CSWin-T | UPerNet | ImageNet-1K | 512x512 | 160K | 49.3 | 50.7 | 60M | 959G | [`config`](configs/cswin/upernet_cswin_tiny.py) | [model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.2.0/upernet_cswin_tiny.pth) | [log](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.2.0/upernet_cswin_tiny.log.json) |
+| CSWin-S | UperNet | ImageNet-1K | 512x512 | 160K | 50.4 | 51.5 | 65M | 1027G |  [`config`](configs/cswin/upernet_cswin_small.py) |[model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.2.0/upernet_cswin_small.pth) | [log](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.2.0/upernet_cswin_small.log.json) |
+| CSWin-B | UperNet | ImageNet-1K | 512x512 | 160K | 51.1 | 52.2 | 109M | 1222G | [`config`](configs/cswin/upernet_cswin_base.py) |[model](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.2.0/upernet_cswin_base.pth) | [log](https://github.com/microsoft/CSWin-Transformer/releases/download/v0.2.0/upernet_cswin_base.log.json) |
 
 
 ## Getting started 
