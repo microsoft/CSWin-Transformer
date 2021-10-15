@@ -3,7 +3,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cswin-transformer-a-general-vision/semantic-segmentation-on-ade20k)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k?p=cswin-transformer-a-general-vision)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cswin-transformer-a-general-vision/semantic-segmentation-on-ade20k-val)](https://paperswithcode.com/sota/semantic-segmentation-on-ade20k-val?p=cswin-transformer-a-general-vision)
 
-This repo is the official implementation of ["CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows"](https://arxiv.org/pdf/2107.00652.pdf). The code and models for downstream tasks are coming soon.
+This repo is the official implementation of ["CSWin Transformer: A General Vision Transformer Backbone with Cross-Shaped Windows"](https://arxiv.org/pdf/2107.00652.pdf). 
 
 ## Introduction
 
@@ -45,12 +45,13 @@ CSWin Transformer achieves strong performance on ImageNet classification (87.5 o
 | CSwin-T | Semantic FPN | ImageNet-1K | 512x512 | 80K | 48.2 | - | 26M | 202G |
 | CSwin-S | Semantic FPN | ImageNet-1K | 512x512 | 80K | 49.2 | - | 39M | 271G |
 | CSwin-B | Semantic FPN | ImageNet-1K | 512x512 | 80K | 49.9 | - | 81M | 464G |
-| CSwin-T | UPerNet | ImageNet-1K | 512x512 | 160K | 49.3 | 50.4 | 60M | 959G |
-| CSwin-S | UperNet | ImageNet-1K | 512x512 | 160K | 50.0 | 50.8 | 65M | 1027G |
-| CSwin-B | UperNet | ImageNet-1K | 512x512 | 160K | 50.8 | 51.7 | 109M | 1222G |
+| CSwin-T | UPerNet | ImageNet-1K | 512x512 | 160K | 49.3 | 50.7 | 60M | 959G |
+| CSwin-S | UperNet | ImageNet-1K | 512x512 | 160K | 50.4 | 51.5 | 65M | 1027G |
+| CSwin-B | UperNet | ImageNet-1K | 512x512 | 160K | 51.1 | 52.2 | 109M | 1222G |
 | CSwin-B | UPerNet | ImageNet-22K | 640x640 | 160K | 51.8 | 52.6 | 109M | 1941G |
 | CSwin-L | UperNet | ImageNet-22K | 640x640 | 160K | 53.4 | 55.7 | 208M | 2745G |
 
+pretrained models and code could be found at [`segmentation`](segmentation)
 
 ## Requirements
 
