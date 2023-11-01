@@ -689,7 +689,7 @@ def main():
     best_epoch = None
     
     if args.eval_checkpoint:  # evaluate the model
-        load_checkpoint(model, args.eval_checkpoint, args.model_ema)
+        load_checkpoint(args, model, args.eval_checkpoint, args.model_ema)
         val_metrics = validate(model, loader_eval, validate_loss_fn, args)
         print(f"Top-1 accuracy of the model is: {val_metrics['top1']:.1f}%")
         return
